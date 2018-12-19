@@ -7,7 +7,12 @@ class FileOwners
 		
 		$new_data = array();
 		foreach($arr_data  as $k => $v){
-			$new_data[$v] = $k;
+			if($new_data[$v] == $v){
+				$new_data[$v][] = $k;
+			} else {
+				$new_data[$v] = $k;
+			}
+			
 //			$filename = $k;
 //			$filename = explode('.', $filename);
 //			$filename = $filename[0];
