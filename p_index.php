@@ -7,8 +7,7 @@ class FileOwners
 	}
 }
 
-$files = array
-(
+$files = array(
 	"Input.txt" => "Randy",
 	"Code.py" => "Stan",
 	"Output.txt" => "Randy"
