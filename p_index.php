@@ -27,4 +27,5 @@ $files = array
 	"Code.py" => "Stan",
 	"Output.txt" => "Randy"
 );
-//var_dump(FileOwners::groupByOwners($files));
+var_dump(FileOwners::groupByOwners($files));
+echo 's';
