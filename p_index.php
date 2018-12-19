@@ -7,7 +7,7 @@ class FileOwners
 		
 		$new_data = array();
 		foreach($arr_data as $k => $v){
-			if($v == "Randy") $randy_txt = $k;
+			//if($v == "Randy") $randy_txt = $k;
 //			if($new_data[$v] == $v){
 //				$new_data[$v][] = $k;
 //			} else {
