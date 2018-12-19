@@ -6,13 +6,14 @@ class FileOwners
 		if($files) $arr_data = $files;
 		
 		$new_data = array();
-		foreach($arr_data  as $k => $v){
-			if($new_data[$v] == $v){
-				$new_data[$v][] = $k;
-			} else {
-				$new_data[$v] = $k;
-			}
-			
+		foreach($arr_data as $k => $v){
+			if($v == "Randy") $randy_txt = $k;
+//			if($new_data[$v] == $v){
+//				$new_data[$v][] = $k;
+//			} else {
+//				$new_data[$v] = $k;
+//			}
+			$new_data[$v] = $k;
 //			$filename = $k;
 //			$filename = explode('.', $filename);
 //			$filename = $filename[0];
