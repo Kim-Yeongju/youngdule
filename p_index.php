@@ -1,17 +1,16 @@
 <?php
-
-// 출력 시켜라 'deleveled'
-
-class Palindrome
+class FileOwners
 {
-	public static function isPalindrome($word)
+	public static function groupByOwners($files)
 	{
-		return $word;
+		return NULL;
 	}
 }
-$txt = '';
-$CLASS = new Palindrome();
-$txt = $CLASS->isPalindrome('deleveled');
 
-echo $txt;
-//echo Palindrome::isPalindrome('Deleveled');
+$files = array
+(
+	"Input.txt" => "Randy",
+	"Code.py" => "Stan",
+	"Output.txt" => "Randy"
+);
+var_dump(FileOwners::groupByOwners($files));
