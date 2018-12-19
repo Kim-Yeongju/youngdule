@@ -13,7 +13,7 @@ class FileOwners
 //			} else {
 //				$new_data[$v] = $k;
 //			}
-			$new_data[$v] = $k;
+			$new_data[] = $v;
 //			$filename = $k;
 //			$filename = explode('.', $filename);
 //			$filename = $filename[0];
