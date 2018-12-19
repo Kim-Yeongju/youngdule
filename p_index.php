@@ -11,7 +11,7 @@ class Palindrome
 }
 $txt = '';
 $CLASS = new Palindrome();
-$txt = $CLASS::isPalindrome('deleveled');
+$txt = $CLASS->isPalindrome('deleveled');
 
 echo $txt;
 //echo Palindrome::isPalindrome('Deleveled');
