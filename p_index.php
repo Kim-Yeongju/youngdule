@@ -3,11 +3,20 @@ class FileOwners
 {
 	public static function groupByOwners($files)
 	{
-		return $files;
+		if($files) $arr_data = $files;
+		
+		$new_data = array();
+		foreach($arr_data  as $k => $v){
+			$new_data[$v] = $k;
+//			$filename = $k;
+//			$filename = explode('.', $filename);
+//			$filename = $filename[0];
+		}
+		return $new_data;
 	}
 }
-
-$files = array(
+$files = array
+(
 	"Input.txt" => "Randy",
 	"Code.py" => "Stan",
 	"Output.txt" => "Randy"
