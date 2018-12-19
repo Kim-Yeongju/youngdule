@@ -6,7 +6,7 @@ class Palindrome
 {
 	public static function isPalindrome($word)
 	{
-		return NULL;
+		return $word;
 	}
 }
 $txt = '';
